@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "ton dernier message",
+    "synonyms": [ "ton dernier message" ],
+    "languageCode": "fr"
+  }, {
+    "value": "ton avant dernier message",
+    "synonyms": [ "ton avant dernier message", "ton avant-dernier message" ],
+    "languageCode": "fr"
+  }, {
+    "value": "conversation",
+    "synonyms": [ "conversation" ],
+    "languageCode": "fr"
+  } ]
+}

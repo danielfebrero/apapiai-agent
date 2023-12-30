@@ -1,0 +1,27 @@
+{
+  "entities": [ {
+    "value": "EURUSD",
+    "synonyms": [ "eur-usd", "eurusd", "EURUSD" ],
+    "languageCode": "fr"
+  }, {
+    "value": "EURCHF",
+    "synonyms": [ "eur-chf", "eurchf", "EURCHF" ],
+    "languageCode": "fr"
+  }, {
+    "value": "ETHUSD",
+    "synonyms": [ "eth-usd", "ethusd", "ETHUSD" ],
+    "languageCode": "fr"
+  }, {
+    "value": "CAC 40",
+    "synonyms": [ "CAC 40", "cac40", "CAC40" ],
+    "languageCode": "fr"
+  }, {
+    "value": "TSLA",
+    "synonyms": [ "TESLA", "TSLA" ],
+    "languageCode": "fr"
+  }, {
+    "value": "AAPL",
+    "synonyms": [ "AAPL", "apple" ],
+    "languageCode": "fr"
+  } ]
+}

@@ -1,7 +1,10 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "screenshot of "
+      "text": "screenshot",
+      "parameterId": "action"
+    }, {
+      "text": " of "
     }, {
       "text": "html",
       "parameterId": "selector"

@@ -7,6 +7,9 @@
   }, {
     "id": "selector",
     "entityType": "@selector"
+  }, {
+    "id": "action",
+    "entityType": "@action"
   } ],
   "priority": 500000,
   "numTrainingPhrases": 1

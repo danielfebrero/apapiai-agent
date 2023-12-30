@@ -1,0 +1,23 @@
+{
+  "entities": [ {
+    "value": "technical indicators",
+    "synonyms": [ "technical indicators" ],
+    "languageCode": "fr"
+  }, {
+    "value": "market data",
+    "synonyms": [ "market data" ],
+    "languageCode": "fr"
+  }, {
+    "value": "economic calendar",
+    "synonyms": [ "calendrier economique", "calendrier économique", "economic calendar" ],
+    "languageCode": "fr"
+  }, {
+    "value": "historical data",
+    "synonyms": [ "données historiques", "historical data" ],
+    "languageCode": "fr"
+  }, {
+    "value": "quotation",
+    "synonyms": [ "quotation", "valeur" ],
+    "languageCode": "fr"
+  } ]
+}

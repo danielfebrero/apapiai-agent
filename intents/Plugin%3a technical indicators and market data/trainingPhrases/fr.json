@@ -1,10 +1,23 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "Récupère les "
+      "text": "Récupère",
+      "parameterId": "action"
     }, {
-      "text": "technical indicators et market data",
+      "text": " les "
+    }, {
+      "text": "technical indicators",
       "parameterId": "server-tool"
+    }, {
+      "text": " et "
+    }, {
+      "text": "market data",
+      "parameterId": "server-tool"
+    }, {
+      "text": " avec le "
+    }, {
+      "text": "plugin",
+      "parameterId": "tool"
     }, {
       "text": " pour "
     }, {

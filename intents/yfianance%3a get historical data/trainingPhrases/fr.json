@@ -1,7 +1,10 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "Montre moi les "
+      "text": "Montre moi",
+      "parameterId": "action"
+    }, {
+      "text": " les "
     }, {
       "text": "données historiques",
       "parameterId": "server-tool"

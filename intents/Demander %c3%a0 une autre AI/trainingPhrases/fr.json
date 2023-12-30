@@ -1,7 +1,10 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "Demade a "
+      "text": "Demande",
+      "parameterId": "action"
+    }, {
+      "text": " a "
     }, {
       "text": "gemini-pro",
       "parameterId": "ai"
@@ -17,7 +20,10 @@
     "languageCode": "fr"
   }, {
     "parts": [ {
-      "text": "Demade a "
+      "text": "Demande",
+      "parameterId": "action"
+    }, {
+      "text": " a "
     }, {
       "text": "gemini-pro",
       "parameterId": "ai"
@@ -31,7 +37,10 @@
     "languageCode": "fr"
   }, {
     "parts": [ {
-      "text": "Demande à "
+      "text": "Demande",
+      "parameterId": "action"
+    }, {
+      "text": " à "
     }, {
       "text": "Vertex",
       "parameterId": "ai"
@@ -47,7 +56,10 @@
     "languageCode": "fr"
   }, {
     "parts": [ {
-      "text": "Demande à "
+      "text": "Demande",
+      "parameterId": "action"
+    }, {
+      "text": " à "
     }, {
       "text": "gemini-pro",
       "parameterId": "ai",
@@ -64,7 +76,10 @@
     "languageCode": "fr"
   }, {
     "parts": [ {
-      "text": "Demande a "
+      "text": "Demande",
+      "parameterId": "action"
+    }, {
+      "text": " a "
     }, {
       "text": "gpt4-turbo",
       "parameterId": "ai",

@@ -13,6 +13,9 @@
   }, {
     "id": "location",
     "entityType": "@sys.location"
+  }, {
+    "id": "action",
+    "entityType": "@action"
   } ],
   "priority": 500000,
   "numTrainingPhrases": 3

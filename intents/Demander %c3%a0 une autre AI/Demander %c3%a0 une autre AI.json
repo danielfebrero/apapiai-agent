@@ -7,6 +7,9 @@
   }, {
     "id": "quote",
     "entityType": "@quote"
+  }, {
+    "id": "action",
+    "entityType": "@action"
   } ],
   "priority": 500000,
   "numTrainingPhrases": 5
