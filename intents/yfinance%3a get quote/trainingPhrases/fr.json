@@ -1,0 +1,74 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Récupère les "
+    }, {
+      "text": "market data",
+      "parameterId": "server-tool"
+    }, {
+      "text": " de "
+    }, {
+      "text": "eurusd",
+      "parameterId": "symbol"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Montre moi la "
+    }, {
+      "text": "quotation",
+      "parameterId": "server-tool"
+    }, {
+      "text": " de "
+    }, {
+      "text": "EURUSD",
+      "parameterId": "symbol",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Je veux la "
+    }, {
+      "text": "quotation",
+      "parameterId": "server-tool"
+    }, {
+      "text": " pour "
+    }, {
+      "text": "ETHUSD",
+      "parameterId": "symbol"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Retrouve la "
+    }, {
+      "text": "quotation",
+      "parameterId": "server-tool"
+    }, {
+      "text": " "
+    }, {
+      "text": "EURCHF",
+      "parameterId": "symbol"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Montre moi la "
+    }, {
+      "text": "quotation",
+      "parameterId": "server-tool"
+    }, {
+      "text": " pour "
+    }, {
+      "text": "EURUSD",
+      "parameterId": "symbol"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  } ]
+}

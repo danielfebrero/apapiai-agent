@@ -1,0 +1,44 @@
+{
+  "defaultLanguageCode": "fr",
+  "supportedLanguageCodes": [ "en" ],
+  "timeZone": "Europe/Madrid",
+  "enableLogging": true,
+  "projectNumber": 705932432287,
+  "speechToTextSettings": {
+    "enableSpeechAdaptation": true
+  },
+  "startFlow": "Default Start Flow",
+  "enableSpellCorrection": true,
+  "advancedSettings": {
+    "audioExportGcsDestination": {
+    
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      }
+    },
+    "playbackInterruptionSettings": {
+    
+    },
+    "loggingSettings": {
+      "enableInteractionLogging": true
+    }
+  },
+  "speakerIdSettings": {
+  
+  },
+  "textToSpeechSettings": {
+  
+  },
+  "genAppBuilderSettings": {
+    "engine": "projects/705932432287/locations/us/collections/default_collection/engines/2fb610bd-ffcf-40e6-8746-483ab580d4e4"
+  },
+  "duplexSettings": {
+  
+  },
+  "answerFeedbackSettings": {
+    "enableAnswerFeedback": true
+  }
+}

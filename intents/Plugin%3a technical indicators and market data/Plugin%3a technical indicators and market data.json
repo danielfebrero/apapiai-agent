@@ -1,0 +1,19 @@
+{
+  "name": "f5b1587a-7824-4ccc-ae6b-6debf01a8609",
+  "displayName": "Plugin: technical indicators and market data",
+  "parameters": [ {
+    "id": "symbol",
+    "entityType": "@symbol"
+  }, {
+    "id": "tool",
+    "entityType": "@tool"
+  }, {
+    "id": "server-tool",
+    "entityType": "@server-tool"
+  }, {
+    "id": "location",
+    "entityType": "@sys.location"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 3
+}

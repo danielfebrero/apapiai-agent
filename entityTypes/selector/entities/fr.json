@@ -1,0 +1,7 @@
+{
+  "entities": [ {
+    "value": "(\\.(?:[\\w-]+))|(#(?:[\\w-]+))|(html|body)",
+    "synonyms": [ "(\\.(?:[\\w-]+))|(#(?:[\\w-]+))|(html|body)" ],
+    "languageCode": "fr"
+  } ]
+}

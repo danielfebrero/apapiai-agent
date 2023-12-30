@@ -1,0 +1,51 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Utilise le "
+    }, {
+      "text": "plugin",
+      "parameterId": "tool",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "calendrier économique",
+      "parameterId": "server-tool"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Montre moi le "
+    }, {
+      "text": "calendrier économique",
+      "parameterId": "server-tool"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Utilise le "
+    }, {
+      "text": "plugin",
+      "parameterId": "tool",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "economic calendar",
+      "parameterId": "server-tool"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Récupère le "
+    }, {
+      "text": "calendrier économique",
+      "parameterId": "server-tool"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  } ]
+}

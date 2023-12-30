@@ -1,0 +1,13 @@
+{
+  "name": "428527f4-e550-489a-a433-17ee7faceba2",
+  "displayName": "Demander à une autre AI",
+  "parameters": [ {
+    "id": "ai",
+    "entityType": "@ai"
+  }, {
+    "id": "quote",
+    "entityType": "@quote"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 5
+}

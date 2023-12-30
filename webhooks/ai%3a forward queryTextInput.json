@@ -1,0 +1,13 @@
+{
+  "name": "eab4afa8-5c28-487c-81d0-c8ed5fe8cf8b",
+  "displayName": "ai: forward queryTextInput",
+  "genericWebService": {
+    "uri": "https://bard-407521.uc.r.appspot.com/ai/",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"credential\": \"$session.params.credential\",\n  \"appId\": \"$session.params.appId\",\n  \"socketUuid\": \"$session.params.socketUuid\",\n  \"instruction\": \"$session.params.queryTextInput\",\n  \"forwarded\": true\n}"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

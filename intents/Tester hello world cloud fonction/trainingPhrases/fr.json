@@ -1,0 +1,18 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Je veux essayer la "
+    }, {
+      "text": "Cloud Fonction",
+      "parameterId": "tool"
+    }, {
+      "text": " "
+    }, {
+      "text": "hello world",
+      "parameterId": "cloud-fonctions",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  } ]
+}

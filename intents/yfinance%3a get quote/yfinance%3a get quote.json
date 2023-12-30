@@ -1,0 +1,13 @@
+{
+  "name": "1c903b66-6a61-4506-b2d0-b3c91b9d56d5",
+  "displayName": "yfinance: get quote",
+  "parameters": [ {
+    "id": "symbol",
+    "entityType": "@symbol"
+  }, {
+    "id": "server-tool",
+    "entityType": "@server-tool"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 5
+}

@@ -1,0 +1,83 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Demade a "
+    }, {
+      "text": "gemini-pro",
+      "parameterId": "ai"
+    }, {
+      "text": " \"\"\""
+    }, {
+      "text": "quand est la fête national en France",
+      "parameterId": "quote"
+    }, {
+      "text": "\"\"\""
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Demade a "
+    }, {
+      "text": "gemini-pro",
+      "parameterId": "ai"
+    }, {
+      "text": " "
+    }, {
+      "text": "quand est la fête national en France",
+      "parameterId": "quote"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Demande à "
+    }, {
+      "text": "Vertex",
+      "parameterId": "ai"
+    }, {
+      "text": ": \""
+    }, {
+      "text": "Parle moi de la france",
+      "parameterId": "quote"
+    }, {
+      "text": "\""
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Demande à "
+    }, {
+      "text": "gemini-pro",
+      "parameterId": "ai",
+      "auto": true
+    }, {
+      "text": " ```"
+    }, {
+      "text": "donne moi la meilleure recette de tartiflette",
+      "parameterId": "quote"
+    }, {
+      "text": "```"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Demande a "
+    }, {
+      "text": "gpt4-turbo",
+      "parameterId": "ai",
+      "auto": true
+    }, {
+      "text": " ```"
+    }, {
+      "text": "ou est né Napoléon?",
+      "parameterId": "quote"
+    }, {
+      "text": "```"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  } ]
+}

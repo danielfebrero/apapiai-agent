@@ -1,0 +1,13 @@
+{
+  "name": "9635717b-f628-4432-a267-ae0d8ee1ddde",
+  "displayName": "plugin: calendrier économique",
+  "genericWebService": {
+    "uri": "https://bard-407521.uc.r.appspot.com/plugins/trading/economic-calendar",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"credential\": \"$session.params.credential\",\n  \"appId\": \"$session.params.appId\",\n  \"socketUuid\": \"$session.params.socketUuid\"\n}"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Montre moi les "
+    }, {
+      "text": "données historiques",
+      "parameterId": "server-tool"
+    }, {
+      "text": " de "
+    }, {
+      "text": "EURUSD",
+      "parameterId": "symbol",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Je veux les "
+    }, {
+      "text": "données historiques",
+      "parameterId": "server-tool"
+    }, {
+      "text": " du "
+    }, {
+      "text": "EURCHF",
+      "parameterId": "symbol",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  } ]
+}

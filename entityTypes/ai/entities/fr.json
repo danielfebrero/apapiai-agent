@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "gpt4-turbo",
+    "synonyms": [ "gpt", "gpt4", "gpt4-turbo" ],
+    "languageCode": "fr"
+  }, {
+    "value": "gemini-pro",
+    "synonyms": [ "gemini", "gemini-pro" ],
+    "languageCode": "fr"
+  }, {
+    "value": "vertex",
+    "synonyms": [ "vertex" ],
+    "languageCode": "fr"
+  } ]
+}

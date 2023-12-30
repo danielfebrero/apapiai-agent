@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "$last-user-utterance",
+    "languageCode": "fr"
+  } ]
+}

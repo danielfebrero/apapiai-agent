@@ -1,0 +1,10 @@
+{
+  "name": "3e47d0f0-555d-466e-8b06-a7f9d5e9b0f1",
+  "displayName": "hello-world-cloud-fonction",
+  "genericWebService": {
+    "uri": "https://function-hello-world-rzxyaard5q-uc.a.run.app"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

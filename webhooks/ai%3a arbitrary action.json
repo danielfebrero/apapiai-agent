@@ -1,0 +1,13 @@
+{
+  "name": "448ed577-ff99-4eeb-8c3c-57294613dce2",
+  "displayName": "ai: arbitrary action",
+  "genericWebService": {
+    "uri": "https://bard-407521.uc.r.appspot.com/ai/",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"credential\": \"$session.params.credential\",\n  \"appId\": \"$session.params.appId\",\n  \"socketUuid\": \"$session.params.socketUuid\",\n  \"instruction\": \"$session.params.actionForAI\",\n  \"reference\": \"$session.params.reference\"\n}"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

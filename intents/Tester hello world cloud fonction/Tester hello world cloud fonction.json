@@ -1,0 +1,14 @@
+{
+  "name": "ea358173-7fab-4c80-b066-cc720961bd5b",
+  "displayName": "Tester hello world cloud fonction",
+  "parameters": [ {
+    "id": "cloud-fonctions",
+    "entityType": "@cloud-fonction"
+  }, {
+    "id": "tool",
+    "entityType": "@tool"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when the user ask to test the hello world cloud function.",
+  "numTrainingPhrases": 1
+}

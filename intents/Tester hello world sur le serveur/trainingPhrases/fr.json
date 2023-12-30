@@ -1,0 +1,18 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Je veux essayer "
+    }, {
+      "text": "Hello World",
+      "parameterId": "server-tool",
+      "auto": true
+    }, {
+      "text": " sur le "
+    }, {
+      "text": "serveur",
+      "parameterId": "tool"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  } ]
+}

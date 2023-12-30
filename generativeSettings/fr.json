@@ -1,0 +1,15 @@
+{
+  "fallbackSettings": {
+    "selectedPrompt": "Default"
+  },
+  "languageCode": "fr",
+  "knowledgeConnectorSettings": {
+    "business": "APT Léman",
+    "llmModelSettings": {
+    
+    },
+    "mainLlmConfig": {
+    
+    }
+  }
+}

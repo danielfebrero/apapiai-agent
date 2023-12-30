@@ -1,0 +1,8 @@
+{
+  "name": "198ebc03-18de-41c2-a4a2-a4f2cb5c107a",
+  "displayName": "quote",
+  "kind": "KIND_REGEXP",
+  "autoExpansionMode": "AUTO_EXPANSION_MODE_DEFAULT",
+  "enableFuzzyExtraction": true,
+  "redact": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "d9c539e8-0f79-4545-9cd4-694575d8f0f1",
+  "displayName": "twitter: tweet ton dernier message",
+  "genericWebService": {
+    "uri": "https://bard-407521.uc.r.appspot.com/twitter/tweet",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"socketUuid\": \"$session.params.socketUuid\",\n  \"credential\": \"$session.params.credential\",\n  \"appId\": \"$session.params.appId\",\n  \"reference\": \"$session.params.reference\"\n}"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

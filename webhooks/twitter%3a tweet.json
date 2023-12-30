@@ -1,0 +1,13 @@
+{
+  "name": "24d5a83d-f896-4080-8dee-38750ef522ef",
+  "displayName": "twitter: tweet",
+  "genericWebService": {
+    "uri": "https://bard-407521.uc.r.appspot.com/twitter/tweet",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"socketUuid\": \"$session.params.socketUuid\",\n  \"credential\": \"$session.params.credential\",\n  \"appId\": \"$session.params.appId\",\n  \"quote\": \"$session.params.quote\"\n}"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

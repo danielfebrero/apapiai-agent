@@ -1,0 +1,55 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Récupère les "
+    }, {
+      "text": "technical indicators et market data",
+      "parameterId": "server-tool"
+    }, {
+      "text": " pour "
+    }, {
+      "text": "eur-usd",
+      "parameterId": "symbol"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Utilise le "
+    }, {
+      "text": "plugin",
+      "parameterId": "tool"
+    }, {
+      "text": " "
+    }, {
+      "text": "technical-indicators",
+      "parameterId": "server-tool"
+    }, {
+      "text": " et montre moi la data de "
+    }, {
+      "text": "eur-usd",
+      "parameterId": "symbol"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Je veux utiliser le "
+    }, {
+      "text": "plugin",
+      "parameterId": "tool"
+    }, {
+      "text": " "
+    }, {
+      "text": "technical indicators",
+      "parameterId": "server-tool"
+    }, {
+      "text": " pour récupérer les données de "
+    }, {
+      "text": "eur-chf",
+      "parameterId": "symbol"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  } ]
+}

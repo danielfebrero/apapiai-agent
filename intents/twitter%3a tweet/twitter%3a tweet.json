@@ -1,0 +1,14 @@
+{
+  "name": "efeafdfa-f880-4f41-93aa-b23416c5581f",
+  "displayName": "twitter: tweet",
+  "parameters": [ {
+    "id": "action",
+    "entityType": "@action"
+  }, {
+    "id": "quote",
+    "entityType": "@quote"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when the user wants to send a tweet.",
+  "numTrainingPhrases": 3
+}

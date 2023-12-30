@@ -1,0 +1,47 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "tweet",
+      "parameterId": "action",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "```comment allez vous aujourd'hui ?```",
+      "parameterId": "quote",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "tweet",
+      "parameterId": "action",
+      "auto": true
+    }, {
+      "text": " ```"
+    }, {
+      "text": "c'est bientot mon anniversaire",
+      "parameterId": "quote"
+    }, {
+      "text": "```"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "tweet",
+      "parameterId": "action"
+    }, {
+      "text": ": \""
+    }, {
+      "text": "ceci est un example",
+      "parameterId": "quote"
+    }, {
+      "text": "\""
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  } ]
+}

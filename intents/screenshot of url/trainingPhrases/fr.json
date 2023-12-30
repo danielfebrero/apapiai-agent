@@ -1,0 +1,17 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "screenshot of "
+    }, {
+      "text": "html",
+      "parameterId": "selector"
+    }, {
+      "text": " of "
+    }, {
+      "text": "https://apt-leman.darkeccho.com",
+      "parameterId": "url"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  } ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ee65551f-e7ae-42d0-bf7e-a580b4da0e25",
+  "displayName": "twitter: tweet ton dernier message",
+  "parameters": [ {
+    "id": "action",
+    "entityType": "@action"
+  }, {
+    "id": "reference",
+    "entityType": "@reference"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 2
+}

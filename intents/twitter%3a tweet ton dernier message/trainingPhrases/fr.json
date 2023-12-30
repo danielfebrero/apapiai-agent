@@ -1,0 +1,29 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "tweet",
+      "parameterId": "action",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "ton avant-dernier message",
+      "parameterId": "reference"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "tweet",
+      "parameterId": "action",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "ton dernier message",
+      "parameterId": "reference"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  } ]
+}

@@ -1,0 +1,31 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Je veux les "
+    }, {
+      "text": "indicateurs techniques",
+      "parameterId": "server-tool"
+    }, {
+      "text": " pour "
+    }, {
+      "text": "AAPL",
+      "parameterId": "symbol"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Montre moi les "
+    }, {
+      "text": "indicateurs techniques",
+      "parameterId": "server-tool"
+    }, {
+      "text": " pour "
+    }, {
+      "text": "TSLA",
+      "parameterId": "symbol"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  } ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "3358cd30-34b2-4158-ae9c-5b7301fd521c",
+  "displayName": "screenshot of url",
+  "parameters": [ {
+    "id": "url",
+    "entityType": "@sys.url"
+  }, {
+    "id": "selector",
+    "entityType": "@selector"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 1
+}

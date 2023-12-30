@@ -1,0 +1,13 @@
+{
+  "name": "21c79eeb-83fc-40db-a1d7-1a755705a413",
+  "displayName": "yfianance: get historical data",
+  "parameters": [ {
+    "id": "symbol",
+    "entityType": "@symbol"
+  }, {
+    "id": "server-tool",
+    "entityType": "@server-tool"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 2
+}

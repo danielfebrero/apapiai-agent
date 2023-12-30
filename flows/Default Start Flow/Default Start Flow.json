@@ -1,0 +1,187 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Salut !", "Bonjour !", "Salutations !", "Bienvenue !" ]
+        },
+        "languageCode": "fr"
+      }, {
+        "text": {
+          "text": [ "Hi! How are you doing?", "Hello! How can I help you?", "Good day! What can I do for you today?", "Greetings! How can I assist?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "fbfeaf25-3eaf-410e-b70c-c84e519bbe7c"
+  }, {
+    "intent": "Tester hello world cloud fonction",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Très bien, je vais appeler la Cloud Fonction hello world" ]
+        },
+        "languageCode": "fr"
+      } ],
+      "webhook": "hello-world-cloud-fonction",
+      "tag": "hello-world",
+      "returnPartialResponses": true
+    },
+    "name": "325d304e-224e-4848-8719-47b0e63eada6",
+    "description": "It queries the webhook and returns the result to the user."
+  }, {
+    "intent": "Tester hello world sur le serveur",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Très bien, je vais appeler hello world sur le serveur" ]
+        },
+        "languageCode": "fr"
+      } ],
+      "webhook": "hello-world-server",
+      "tag": "hello-world-server",
+      "returnPartialResponses": true
+    },
+    "name": "053d8b31-8984-460f-9ea0-e3ec4aa8deef",
+    "description": "It queries the server and returns the result to the user."
+  }, {
+    "intent": "yfinance: get quote",
+    "triggerFulfillment": {
+      "webhook": "yfinance: get quote",
+      "tag": "get-quote",
+      "returnPartialResponses": true
+    },
+    "name": "b5b208d3-69c3-4a0e-bc23-eef22e806803"
+  }, {
+    "intent": "yfianance: get historical data",
+    "triggerFulfillment": {
+      "webhook": "yfinance: get historical data",
+      "tag": "get-historical-data",
+      "returnPartialResponses": true
+    },
+    "name": "1eaf1395-e39b-4168-a8fb-c21fbee17616"
+  }, {
+    "intent": "yfinance: get technical indicators",
+    "triggerFulfillment": {
+      "webhook": "yfinance: get insights",
+      "tag": "get-insights",
+      "returnPartialResponses": true
+    },
+    "name": "d000521d-8103-41d5-a921-fc978167fd41"
+  }, {
+    "intent": "Plugin: technical indicators and market data",
+    "triggerFulfillment": {
+      "webhook": "Plugin: technical indicators and market data",
+      "tag": "technical-indicators",
+      "returnPartialResponses": true
+    },
+    "name": "e3bcbf38-6d10-4040-a684-4fd64ff24c26",
+    "description": "Get technical indicators"
+  }, {
+    "intent": "Demander à une autre AI",
+    "condition": "$intent.params.ai = vertex",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Voici sa réponse: $request.generative.response" ]
+        },
+        "languageCode": "fr"
+      } ],
+      "generators": [ {
+        "generator": "projects/bard-407521/locations/us-central1/agents/2fb610bd-ffcf-40e6-8746-483ab580d4e4/generators/9e2e7e0d-eecf-4d56-acce-12d9452327ac",
+        "outputParameter": "$request.generative.response"
+      } ]
+    },
+    "name": "b642f435-2013-48a7-8deb-f6a2da2badf8",
+    "description": "Demander a une autre IA en utilisant les generators dialogflow cx"
+  }, {
+    "intent": "Demander à une autre AI",
+    "condition": "$intent.params.ai != vertex",
+    "triggerFulfillment": {
+      "webhook": "ai: parler avec une autre ai",
+      "tag": "parler-ai",
+      "returnPartialResponses": true
+    },
+    "name": "905a5ab5-b1a8-4aae-afca-17a37c093724",
+    "description": "Demander a une autre IA avec le server"
+  }, {
+    "intent": "screenshot of url",
+    "triggerFulfillment": {
+      "webhook": "screenshot url",
+      "tag": "screenshot-url",
+      "returnPartialResponses": true
+    },
+    "name": "dee1cd0b-c69b-4352-9184-b64814e06a3a"
+  }, {
+    "intent": "plugin: economic calendar",
+    "triggerFulfillment": {
+      "webhook": "plugin: calendrier économique",
+      "tag": "economic-calendar",
+      "returnPartialResponses": true
+    },
+    "name": "a6ba65e3-7def-447d-b117-23a84f0285e3"
+  }, {
+    "intent": "twitter: tweet",
+    "triggerFulfillment": {
+      "webhook": "twitter: tweet",
+      "tag": "twitter-tweet",
+      "returnPartialResponses": true
+    },
+    "name": "e96cca86-7929-42a1-bd50-481a50203ad2"
+  }, {
+    "intent": "twitter: tweet ton dernier message",
+    "triggerFulfillment": {
+      "webhook": "twitter: tweet ton dernier message",
+      "tag": "twitter-tweet-last-message"
+    },
+    "name": "05ebe02f-df9f-44c1-bf13-8376032da284"
+  }, {
+    "intent": "ai: arbitrary action",
+    "triggerFulfillment": {
+      "webhook": "ai: arbitrary action",
+      "tag": "ai-arbitrary-action",
+      "returnPartialResponses": true
+    },
+    "name": "0fb330b1-1a85-407d-99fc-966d96ceb33f"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ],
+      "webhook": "ai: forward queryTextInput",
+      "tag": "ai-forward-queryTextInput",
+      "returnPartialResponses": true
+    },
+    "name": "2054ea63-093e-4388-a479-49e60f19239e"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Je n'ai pas reçu d'input" ]
+        },
+        "languageCode": "fr"
+      }, {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "cf62e340-b12f-4bec-a9ae-b7827122f49c"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.60000002,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+  }
+}
