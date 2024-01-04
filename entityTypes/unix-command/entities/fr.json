@@ -1,0 +1,7 @@
+{
+  "entities": [ {
+    "value": "^\\$ .*",
+    "synonyms": [ "^\\$ .*" ],
+    "languageCode": "fr"
+  } ]
+}

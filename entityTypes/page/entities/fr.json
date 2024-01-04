@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "terminal",
+    "synonyms": [ "terminal", "unix" ],
+    "languageCode": "fr"
+  }, {
+    "value": "home",
+    "synonyms": [ "home", "start page", "welcome" ],
+    "languageCode": "fr"
+  } ]
+}

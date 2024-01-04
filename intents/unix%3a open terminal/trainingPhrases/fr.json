@@ -1,0 +1,27 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "open",
+      "parameterId": "action"
+    }, {
+      "text": " the "
+    }, {
+      "text": "terminal",
+      "parameterId": "page"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "open",
+      "parameterId": "action"
+    }, {
+      "text": " "
+    }, {
+      "text": "terminal",
+      "parameterId": "page"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  } ]
+}

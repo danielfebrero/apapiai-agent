@@ -1,0 +1,59 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "exit",
+      "parameterId": "action",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "terminal",
+      "parameterId": "page",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "exit",
+      "parameterId": "action",
+      "auto": true
+    }, {
+      "text": " the ",
+      "auto": true
+    }, {
+      "text": "terminal",
+      "parameterId": "page",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "close",
+      "parameterId": "action"
+    }, {
+      "text": " the "
+    }, {
+      "text": "terminal",
+      "parameterId": "page",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "close",
+      "parameterId": "action"
+    }, {
+      "text": " "
+    }, {
+      "text": "terminal",
+      "parameterId": "page",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  } ]
+}

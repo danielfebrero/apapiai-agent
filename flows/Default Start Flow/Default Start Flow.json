@@ -19,69 +19,6 @@
     },
     "name": "fbfeaf25-3eaf-410e-b70c-c84e519bbe7c"
   }, {
-    "intent": "Tester hello world cloud fonction",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Très bien, je vais appeler la Cloud Fonction hello world" ]
-        },
-        "languageCode": "fr"
-      } ],
-      "webhook": "hello-world-cloud-fonction",
-      "tag": "hello-world",
-      "returnPartialResponses": true
-    },
-    "name": "325d304e-224e-4848-8719-47b0e63eada6",
-    "description": "It queries the webhook and returns the result to the user."
-  }, {
-    "intent": "Tester hello world sur le serveur",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Très bien, je vais appeler hello world sur le serveur" ]
-        },
-        "languageCode": "fr"
-      } ],
-      "webhook": "hello-world-server",
-      "tag": "hello-world-server",
-      "returnPartialResponses": true
-    },
-    "name": "053d8b31-8984-460f-9ea0-e3ec4aa8deef",
-    "description": "It queries the server and returns the result to the user."
-  }, {
-    "intent": "yfinance: get quote",
-    "triggerFulfillment": {
-      "webhook": "yfinance: get quote",
-      "tag": "get-quote",
-      "returnPartialResponses": true
-    },
-    "name": "b5b208d3-69c3-4a0e-bc23-eef22e806803"
-  }, {
-    "intent": "yfianance: get historical data",
-    "triggerFulfillment": {
-      "webhook": "yfinance: get historical data",
-      "tag": "get-historical-data",
-      "returnPartialResponses": true
-    },
-    "name": "1eaf1395-e39b-4168-a8fb-c21fbee17616"
-  }, {
-    "intent": "yfinance: get technical indicators",
-    "triggerFulfillment": {
-      "webhook": "yfinance: get insights",
-      "tag": "get-insights",
-      "returnPartialResponses": true
-    },
-    "name": "d000521d-8103-41d5-a921-fc978167fd41"
-  }, {
-    "intent": "Plugin: technical indicators and market data",
-    "triggerFulfillment": {
-      "webhook": "Plugin: technical indicators and market data",
-      "tag": "technical-indicators",
-      "returnPartialResponses": true
-    },
-    "name": "e3bcbf38-6d10-4040-a684-4fd64ff24c26",
-    "description": "Get technical indicators"
-  }, {
     "intent": "Demander à une autre AI",
     "condition": "$intent.params.ai = vertex",
     "triggerFulfillment": {
@@ -117,9 +54,9 @@
     },
     "name": "dee1cd0b-c69b-4352-9184-b64814e06a3a"
   }, {
-    "intent": "plugin: economic calendar",
+    "intent": "trading: economic calendar",
     "triggerFulfillment": {
-      "webhook": "plugin: calendrier économique",
+      "webhook": "trading: calendrier économique",
       "tag": "economic-calendar",
       "returnPartialResponses": true
     },
@@ -140,13 +77,19 @@
     },
     "name": "05ebe02f-df9f-44c1-bf13-8376032da284"
   }, {
-    "intent": "ai: arbitrary action",
+    "intent": "unix: open terminal",
     "triggerFulfillment": {
-      "webhook": "ai: arbitrary action",
-      "tag": "ai-arbitrary-action",
-      "returnPartialResponses": true
+    
     },
-    "name": "0fb330b1-1a85-407d-99fc-966d96ceb33f"
+    "targetPage": "terminal",
+    "name": "6addb63c-dc0f-4b35-a6e0-c9adb1449bdb"
+  }, {
+    "intent": "trading: generic intent",
+    "triggerFulfillment": {
+      "webhook": "trading: generic intent",
+      "tag": "trading-generic-intent"
+    },
+    "name": "1f2ce795-cf74-470f-9f36-f6db3766710e"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",

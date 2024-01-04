@@ -1,0 +1,13 @@
+{
+  "name": "f7744210-929d-40ba-a19d-13c3d2d12799",
+  "displayName": "unix: send command",
+  "genericWebService": {
+    "uri": "https://bard-407521.uc.r.appspot.com/unix",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"credential\": \"$session.params.credential\",\n  \"appId\": \"$session.params.appId\",\n  \"socketUuid\": \"$session.params.socketUuid\",\n  \"command\": \"$session.params.unix-command\"\n}"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

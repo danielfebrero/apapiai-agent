@@ -1,0 +1,36 @@
+{
+  "name": "7027ee08-937f-4656-89ac-2fa46f5838ba",
+  "displayName": "terminal",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "You are now in the terminal. Input commands with $." ]
+      },
+      "languageCode": "fr"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "unix: close terminal",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Exited terminal." ]
+        },
+        "languageCode": "fr"
+      } ]
+    },
+    "targetPage": "Start Page",
+    "name": "7548fae5-cc77-43c6-9e43-9ea33df3fd7c"
+  }, {
+    "intent": "unix: execute command",
+    "triggerFulfillment": {
+      "webhook": "unix: send command",
+      "tag": "unix-send-command",
+      "returnPartialResponses": true
+    },
+    "name": "ae952045-cf49-468a-b71d-ff79ccf80519"
+  } ]
+}

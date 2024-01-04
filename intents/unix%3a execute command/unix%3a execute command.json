@@ -1,0 +1,10 @@
+{
+  "name": "40f6b159-fb81-4100-955c-ec12d72aff92",
+  "displayName": "unix: execute command",
+  "parameters": [ {
+    "id": "unix-command",
+    "entityType": "@unix-command"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 4
+}

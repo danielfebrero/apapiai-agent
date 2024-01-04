@@ -1,0 +1,13 @@
+{
+  "name": "c6e5279a-4d67-4353-b813-c5a2b837b1d5",
+  "displayName": "unix: open terminal",
+  "parameters": [ {
+    "id": "action",
+    "entityType": "@action"
+  }, {
+    "id": "page",
+    "entityType": "@page"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 2
+}

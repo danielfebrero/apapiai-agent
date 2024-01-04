@@ -1,23 +1,27 @@
 {
   "entities": [ {
-    "value": "technical indicators",
-    "synonyms": [ "technical indicators" ],
+    "value": "indicateurs techniques",
+    "synonyms": [ "indicateurs techniques", "technical indicators" ],
     "languageCode": "fr"
   }, {
-    "value": "market data",
-    "synonyms": [ "market data" ],
-    "languageCode": "fr"
-  }, {
-    "value": "economic calendar",
+    "value": "calendrier économique",
     "synonyms": [ "calendrier economique", "calendrier économique", "economic calendar" ],
     "languageCode": "fr"
   }, {
-    "value": "historical data",
+    "value": "données historiques",
     "synonyms": [ "données historiques", "historical data" ],
     "languageCode": "fr"
   }, {
     "value": "quotation",
     "synonyms": [ "quotation", "valeur" ],
+    "languageCode": "fr"
+  }, {
+    "value": "décision de trade",
+    "synonyms": [ "décision de trade", "trade decision" ],
+    "languageCode": "fr"
+  }, {
+    "value": "analyse technique",
+    "synonyms": [ "analyse technique", "technical analysis" ],
     "languageCode": "fr"
   } ]
 }
