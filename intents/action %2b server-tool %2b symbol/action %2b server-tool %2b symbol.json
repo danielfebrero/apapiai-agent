@@ -1,0 +1,16 @@
+{
+  "name": "ea48a985-952d-4fa9-8c2f-53aceb611a07",
+  "displayName": "action + server-tool + symbol",
+  "parameters": [ {
+    "id": "action",
+    "entityType": "@action"
+  }, {
+    "id": "server-tool",
+    "entityType": "@server-tool"
+  }, {
+    "id": "symbol",
+    "entityType": "@symbol"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 4
+}

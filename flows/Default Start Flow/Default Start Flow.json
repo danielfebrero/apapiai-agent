@@ -19,77 +19,39 @@
     },
     "name": "fbfeaf25-3eaf-410e-b70c-c84e519bbe7c"
   }, {
-    "intent": "Demander à une autre AI",
-    "condition": "$intent.params.ai = vertex",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Voici sa réponse: $request.generative.response" ]
-        },
-        "languageCode": "fr"
-      } ],
-      "generators": [ {
-        "generator": "projects/bard-407521/locations/us-central1/agents/2fb610bd-ffcf-40e6-8746-483ab580d4e4/generators/9e2e7e0d-eecf-4d56-acce-12d9452327ac",
-        "outputParameter": "$request.generative.response"
-      } ]
-    },
-    "name": "b642f435-2013-48a7-8deb-f6a2da2badf8",
-    "description": "Demander a une autre IA en utilisant les generators dialogflow cx"
-  }, {
-    "intent": "Demander à une autre AI",
-    "condition": "$intent.params.ai != vertex",
-    "triggerFulfillment": {
-      "webhook": "ai: parler avec une autre ai",
-      "tag": "parler-ai",
-      "returnPartialResponses": true
-    },
-    "name": "905a5ab5-b1a8-4aae-afca-17a37c093724",
-    "description": "Demander a une autre IA avec le server"
-  }, {
-    "intent": "screenshot of url",
-    "triggerFulfillment": {
-      "webhook": "screenshot url",
-      "tag": "screenshot-url",
-      "returnPartialResponses": true
-    },
-    "name": "dee1cd0b-c69b-4352-9184-b64814e06a3a"
-  }, {
-    "intent": "trading: economic calendar",
-    "triggerFulfillment": {
-      "webhook": "trading: calendrier économique",
-      "tag": "economic-calendar",
-      "returnPartialResponses": true
-    },
-    "name": "a6ba65e3-7def-447d-b117-23a84f0285e3"
-  }, {
-    "intent": "twitter: tweet",
-    "triggerFulfillment": {
-      "webhook": "twitter: tweet",
-      "tag": "twitter-tweet",
-      "returnPartialResponses": true
-    },
-    "name": "e96cca86-7929-42a1-bd50-481a50203ad2"
-  }, {
-    "intent": "twitter: tweet ton dernier message",
-    "triggerFulfillment": {
-      "webhook": "twitter: tweet ton dernier message",
-      "tag": "twitter-tweet-last-message"
-    },
-    "name": "05ebe02f-df9f-44c1-bf13-8376032da284"
-  }, {
-    "intent": "unix: open terminal",
+    "intent": "action + page",
+    "condition": "$session.params.action = \"ouvre\" AND $session.params.page = terminal",
     "triggerFulfillment": {
     
     },
     "targetPage": "terminal",
-    "name": "6addb63c-dc0f-4b35-a6e0-c9adb1449bdb"
+    "name": "6addb63c-dc0f-4b35-a6e0-c9adb1449bdb",
+    "description": "Open terminal"
   }, {
-    "intent": "trading: generic intent",
+    "intent": "action + page",
+    "condition": "$session.params.action = ouvre AND $session.params.page = x",
     "triggerFulfillment": {
-      "webhook": "trading: generic intent",
-      "tag": "trading-generic-intent"
+    
     },
-    "name": "1f2ce795-cf74-470f-9f36-f6db3766710e"
+    "targetPage": "x",
+    "name": "594cefd1-3e6f-4afd-9b09-30dbab8c246f",
+    "description": "open twitter"
+  }, {
+    "intent": "action + page",
+    "condition": "$session.params.action = ouvre AND $session.params.page = trading",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "trading",
+    "name": "07f002a1-c475-4b1b-bbaa-19e9cd2a23d5"
+  }, {
+    "intent": "action + page",
+    "condition": "$session.params.action = ouvre AND $session.params.page = browser",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "browser",
+    "name": "a2433fb0-08b3-4d97-b0f3-b87ab622bd0a"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -124,7 +86,7 @@
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",
-    "classificationThreshold": 0.60000002,
+    "classificationThreshold": 0.5,
     "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
   }
 }

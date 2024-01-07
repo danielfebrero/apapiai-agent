@@ -1,0 +1,18 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Connecte moi",
+      "parameterId": "action"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Login",
+      "parameterId": "action",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  } ]
+}

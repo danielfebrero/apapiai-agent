@@ -1,7 +1,7 @@
 {
   "entities": [ {
-    "value": "Récupère",
-    "synonyms": [ "Montre moi", "Obtiens", "Récupère", "Retrouve", "Trouve" ],
+    "value": "récupère",
+    "synonyms": [ "get", "Montre moi", "Obtiens", "Récupère", "Retrouve", "Trouve" ],
     "languageCode": "fr"
   }, {
     "value": "screenshot",
@@ -14,6 +14,22 @@
   }, {
     "value": "demande",
     "synonyms": [ "demande" ],
+    "languageCode": "fr"
+  }, {
+    "value": "ouvre",
+    "synonyms": [ "go to", "open", "ouvre" ],
+    "languageCode": "fr"
+  }, {
+    "value": "ferme",
+    "synonyms": [ "close", "exit", "ferme" ],
+    "languageCode": "fr"
+  }, {
+    "value": "login",
+    "synonyms": [ "connecte moi", "login" ],
+    "languageCode": "fr"
+  }, {
+    "value": "logout",
+    "synonyms": [ "déconnecte moi", "logout" ],
     "languageCode": "fr"
   } ]
 }

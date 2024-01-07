@@ -1,0 +1,28 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Get",
+      "parameterId": "action"
+    }, {
+      "text": " "
+    }, {
+      "text": "profile",
+      "parameterId": "reference"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Montre moi",
+      "parameterId": "action",
+      "auto": true
+    }, {
+      "text": " mon "
+    }, {
+      "text": "profile",
+      "parameterId": "reference"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  } ]
+}

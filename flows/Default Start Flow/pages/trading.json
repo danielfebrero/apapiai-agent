@@ -1,0 +1,44 @@
+{
+  "name": "0b6f1aca-bf5a-4d71-aca4-ba174eb88b2f",
+  "displayName": "trading",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "You are now in trading app. Demande les données historiques, la quotation d'un symbol, l'analyse technique d'une paire ou les indicateurs technique d'une action, la décision de trade d'une paire..." ]
+      },
+      "languageCode": "fr"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "action + page",
+    "condition": "$intent.params.action = ferme",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Exited trading." ]
+        },
+        "languageCode": "fr"
+      } ]
+    },
+    "targetPage": "Start Page",
+    "name": "ae6b2f90-0e85-451b-989c-25487440dd26"
+  }, {
+    "intent": "action + reference",
+    "condition": "$intent.params.action = tweet",
+    "triggerFulfillment": {
+      "webhook": "twitter: tweet ton dernier message",
+      "tag": "tweet-last-message"
+    },
+    "name": "dcf84bd4-15b1-44e2-a548-06aeb8a66501"
+  }, {
+    "intent": "action + server-tool + symbol",
+    "triggerFulfillment": {
+      "webhook": "intent: generic",
+      "tag": "intent-generic"
+    },
+    "name": "b68edc4c-6ab5-4162-8d2a-af5df9adafcd"
+  } ]
+}

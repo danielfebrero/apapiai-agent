@@ -1,0 +1,13 @@
+{
+  "name": "45fa6c32-000a-4106-ba41-94f87cdc18ab",
+  "displayName": "action + reference",
+  "parameters": [ {
+    "id": "action",
+    "entityType": "@action"
+  }, {
+    "id": "reference",
+    "entityType": "@reference"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 2
+}

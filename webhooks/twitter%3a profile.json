@@ -1,0 +1,13 @@
+{
+  "name": "02d83305-a6d8-49af-a558-7686cfb7a8fa",
+  "displayName": "twitter: profile",
+  "genericWebService": {
+    "uri": "https://bard-407521.uc.r.appspot.com/twitter/profile",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"credential\": \"$session.params.credential\",\n  \"appId\": \"$session.params.appId\",\n  \"socketUuid\": \"$session.params.socketUuid\"\n}"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

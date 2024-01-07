@@ -1,0 +1,91 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Montre moi",
+      "parameterId": "action",
+      "auto": true
+    }, {
+      "text": " les ",
+      "auto": true
+    }, {
+      "text": "données historiques",
+      "parameterId": "server-tool",
+      "auto": true
+    }, {
+      "text": " de ",
+      "auto": true
+    }, {
+      "text": "EURUSD",
+      "parameterId": "symbol",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Montre moi",
+      "parameterId": "action",
+      "auto": true
+    }, {
+      "text": " l'",
+      "auto": true
+    }, {
+      "text": "analyse technique",
+      "parameterId": "server-tool",
+      "auto": true
+    }, {
+      "text": " pour ",
+      "auto": true
+    }, {
+      "text": "EURUSD",
+      "parameterId": "symbol",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Tweet",
+      "parameterId": "action",
+      "auto": true
+    }, {
+      "text": " la ",
+      "auto": true
+    }, {
+      "text": "quotation",
+      "parameterId": "server-tool",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "EURUSD",
+      "parameterId": "symbol",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Montre moi",
+      "parameterId": "action",
+      "auto": true
+    }, {
+      "text": " la ",
+      "auto": true
+    }, {
+      "text": "quotation",
+      "parameterId": "server-tool",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "EURUSD",
+      "parameterId": "symbol",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  } ]
+}

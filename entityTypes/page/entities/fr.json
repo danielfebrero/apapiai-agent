@@ -7,5 +7,17 @@
     "value": "home",
     "synonyms": [ "home", "start page", "welcome" ],
     "languageCode": "fr"
+  }, {
+    "value": "x",
+    "synonyms": [ "twitter", "x" ],
+    "languageCode": "fr"
+  }, {
+    "value": "browser",
+    "synonyms": [ "browser" ],
+    "languageCode": "fr"
+  }, {
+    "value": "trading",
+    "synonyms": [ "trade", "trading" ],
+    "languageCode": "fr"
   } ]
 }

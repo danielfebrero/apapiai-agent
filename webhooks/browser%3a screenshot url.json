@@ -1,0 +1,13 @@
+{
+  "name": "44100094-351c-42d5-8a46-f66f1420ad4a",
+  "displayName": "browser: screenshot url",
+  "genericWebService": {
+    "uri": "https://bard-407521.uc.r.appspot.com/browse/screenshot",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"credential\": \"$session.params.credential\",\n  \"appId\": \"$session.params.appId\",\n  \"url\": \"$session.params.url\",\n  \"selector\": \"$session.params.selector\",\n  \"socketUuid\": \"$session.params.socketUuid\"\n}"
+  },
+  "timeout": {
+    "seconds": 10
+  }
+}

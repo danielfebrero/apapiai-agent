@@ -1,0 +1,13 @@
+{
+  "name": "c429ee57-7e81-40a0-be57-d2d294b79199",
+  "displayName": "twitter: generic intent",
+  "genericWebService": {
+    "uri": "https://bard-407521.uc.r.appspot.com/twitter/intent",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"credential\": \"$session.params.credential\",\n  \"appId\": \"$session.params.appId\",\n  \"symbol\": \"$session.params.symbol\",\n  \"socketUuid\": \"$session.params.socketUuid\",\n  \"serverTool\": \"$session.params.server-tool\"\n}"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

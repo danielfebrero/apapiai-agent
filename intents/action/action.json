@@ -1,0 +1,10 @@
+{
+  "name": "17aa602e-5107-4980-9735-3a8826b9f814",
+  "displayName": "action",
+  "parameters": [ {
+    "id": "action",
+    "entityType": "@action"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 2
+}
