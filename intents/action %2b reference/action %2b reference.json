@@ -9,5 +9,5 @@
     "entityType": "@reference"
   } ],
   "priority": 500000,
-  "numTrainingPhrases": 2
+  "numTrainingPhrases": 5
 }

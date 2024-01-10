@@ -31,5 +31,9 @@
     "value": "logout",
     "synonyms": [ "déconnecte moi", "logout" ],
     "languageCode": "fr"
+  }, {
+    "value": "getinfo",
+    "synonyms": [ "getinfo" ],
+    "languageCode": "fr"
   } ]
 }

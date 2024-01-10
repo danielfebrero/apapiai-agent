@@ -1,6 +1,54 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "Ouvre",
+      "parameterId": "action",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "une"
+    }, {
+      "text": " nouvelle ",
+      "auto": true
+    }, {
+      "text": "conversation",
+      "parameterId": "reference",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Ouvre",
+      "parameterId": "action",
+      "auto": true
+    }, {
+      "text": " un "
+    }, {
+      "text": "thread",
+      "parameterId": "reference"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Tweet",
+      "parameterId": "action",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "ton dernier message",
+      "parameterId": "reference",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
       "text": "Get",
       "parameterId": "action"
     }, {

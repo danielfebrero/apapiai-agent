@@ -1,0 +1,38 @@
+{
+  "name": "04e97c6c-2c05-447f-9525-0514fdbe5b3e",
+  "displayName": "thread",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "setParameterActions": [ {
+      "parameter": "currentPage",
+      "value": "thread"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "action + page",
+    "condition": "$session.params.action = ferme",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Le thread est fermé." ]
+        },
+        "languageCode": "fr"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "currentPage",
+        "value": "home"
+      } ]
+    },
+    "targetPage": "Start Page",
+    "name": "9adb454b-2f71-4c80-8059-e6515d10d6bc"
+  }, {
+    "intent": "sys.any",
+    "triggerFulfillment": {
+      "webhook": "ai: add to thread",
+      "tag": "ai-add-to-thread"
+    },
+    "name": "2a1711bd-15f5-41c8-b20f-b99c160fac22"
+  } ]
+}

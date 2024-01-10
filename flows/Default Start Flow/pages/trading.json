@@ -10,17 +10,25 @@
         "text": [ "You are now in trading app. Demande les données historiques, la quotation d'un symbol, l'analyse technique d'une paire ou les indicateurs technique d'une action, la décision de trade d'une paire..." ]
       },
       "languageCode": "fr"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "currentPage",
+      "value": "trading"
     } ]
   },
   "transitionRoutes": [ {
     "intent": "action + page",
-    "condition": "$intent.params.action = ferme",
+    "condition": "$session.params.action = ferme",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
           "text": [ "Exited trading." ]
         },
         "languageCode": "fr"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "currentPage",
+        "value": "home"
       } ]
     },
     "targetPage": "Start Page",
@@ -36,9 +44,16 @@
   }, {
     "intent": "action + server-tool + symbol",
     "triggerFulfillment": {
-      "webhook": "intent: generic",
-      "tag": "intent-generic"
+      "webhook": "trading: generic intent",
+      "tag": "trading-generic-intent"
     },
     "name": "b68edc4c-6ab5-4162-8d2a-af5df9adafcd"
+  }, {
+    "intent": "referene",
+    "triggerFulfillment": {
+      "webhook": "ai: forward queryTextInput",
+      "tag": "forward-query"
+    },
+    "name": "ccd52b13-9ef1-415c-a8c7-f01fb7057033"
   } ]
 }

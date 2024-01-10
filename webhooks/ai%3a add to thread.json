@@ -1,0 +1,13 @@
+{
+  "name": "502a10ea-d33f-49c6-a9ce-132c4478ea9a",
+  "displayName": "ai: add to thread",
+  "genericWebService": {
+    "uri": "https://bard-407521.uc.r.appspot.com/ai/thread/add",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"credential\": \"$session.params.credential\",\n  \"appId\": \"$session.params.appId\",\n  \"socketUuid\": \"$session.params.socketUuid\",\n  \"instruction\": \"$session.params.queryTextInput\"\n}"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

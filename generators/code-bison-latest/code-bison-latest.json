@@ -3,11 +3,11 @@
   "displayName": "code-bison-latest",
   "modelParameter": {
     "temperature": 1,
-    "maxDecodeSteps": 128,
+    "maxDecodeSteps": 1024,
     "topP": 0.94999999,
     "topK": 40
   },
   "llmModelSettings": {
-    "model": "text-bison"
+    "model": "code-bison"
   }
 }

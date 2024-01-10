@@ -10,6 +10,10 @@
         "text": [ "Welcome in browser app! Take a screenshot." ]
       },
       "languageCode": "fr"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "currentPage",
+      "value": "browser"
     } ]
   },
   "transitionRoutes": [ {
@@ -21,13 +25,17 @@
     "name": "88496c61-32c0-4049-9e9d-6ba74ae78f15"
   }, {
     "intent": "action + page",
-    "condition": "$intent.params.action = ferme",
+    "condition": "$session.params.action = ferme",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
           "text": [ "Exited browser." ]
         },
         "languageCode": "fr"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "currentPage",
+        "value": "home"
       } ]
     },
     "targetPage": "Start Page",

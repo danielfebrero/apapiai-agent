@@ -1,0 +1,10 @@
+{
+  "name": "06ca8c04-7be8-453a-97ec-54b839c87139",
+  "displayName": "referene",
+  "parameters": [ {
+    "id": "reference",
+    "entityType": "@reference"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 3
+}

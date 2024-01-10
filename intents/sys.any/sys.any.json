@@ -1,0 +1,10 @@
+{
+  "name": "8972e99b-428a-4c33-98e9-1b3890be7068",
+  "displayName": "sys.any",
+  "parameters": [ {
+    "id": "any",
+    "entityType": "@sys.any"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 1
+}

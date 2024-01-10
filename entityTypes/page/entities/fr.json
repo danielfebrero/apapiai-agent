@@ -19,5 +19,9 @@
     "value": "trading",
     "synonyms": [ "trade", "trading" ],
     "languageCode": "fr"
+  }, {
+    "value": "thread",
+    "synonyms": [ "conversation", "thread" ],
+    "languageCode": "fr"
   } ]
 }

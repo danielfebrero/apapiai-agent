@@ -1,0 +1,36 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Detail ",
+      "auto": true
+    }, {
+      "text": "ton dernier message",
+      "parameterId": "reference",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Ajoute des emojis a ",
+      "auto": true
+    }, {
+      "text": "ton dernier message",
+      "parameterId": "reference",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Resume ",
+      "auto": true
+    }, {
+      "text": "ton dernier message",
+      "parameterId": "reference",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  } ]
+}

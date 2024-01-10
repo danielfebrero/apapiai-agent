@@ -10,6 +10,10 @@
         "text": [ "You are now in X app. Login, logout, tweet!" ]
       },
       "languageCode": "fr"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "currentPage",
+      "value": "X"
     } ]
   },
   "transitionRoutes": [ {
@@ -45,13 +49,17 @@
     "name": "cb6351c0-1fb7-4dee-9457-4b197c0c3420"
   }, {
     "intent": "action + page",
-    "condition": "$intent.params.action = ferme",
+    "condition": "$session.params.action = ferme",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
           "text": [ "Exited X." ]
         },
         "languageCode": "fr"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "currentPage",
+        "value": "home"
       } ]
     },
     "targetPage": "Start Page",

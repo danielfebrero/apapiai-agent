@@ -5,7 +5,7 @@
     "uri": "https://bard-407521.uc.r.appspot.com/trading/intent",
     "webhookType": "FLEXIBLE",
     "httpMethod": "POST",
-    "requestBody": "{\n  \"credential\": \"$session.params.credential\",\n  \"appId\": \"$session.params.appId\",\n  \"symbol\": \"$session.params.symbol\",\n  \"socketUuid\": \"$session.params.socketUuid\",\n  \"serverTool\": \"$session.params.server-tool\"\n}"
+    "requestBody": "{\n  \"credential\": \"$session.params.credential\",\n  \"appId\": \"$session.params.appId\",\n  \"socketUuid\": \"$session.params.socketUuid\",\n  \"symbol\": \"$session.params.symbol\",\n  \"action\": \"$session.params.action\",\n  \"serverTool\": \"$session.params.server-tool\"\n}"
   },
   "timeout": {
     "seconds": 5

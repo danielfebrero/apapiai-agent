@@ -7,7 +7,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Salut !", "Bonjour !", "Salutations !", "Bienvenue !" ]
+          "text": [ "$request.generative.hello" ]
         },
         "languageCode": "fr"
       }, {
@@ -15,6 +15,10 @@
           "text": [ "Hi! How are you doing?", "Hello! How can I help you?", "Good day! What can I do for you today?", "Greetings! How can I assist?" ]
         },
         "languageCode": "en"
+      } ],
+      "generators": [ {
+        "generator": "projects/bard-407521/locations/us-central1/agents/2fb610bd-ffcf-40e6-8746-483ab580d4e4/generators/9e2e7e0d-eecf-4d56-acce-12d9452327ac",
+        "outputParameter": "$request.generative.hello"
       } ]
     },
     "name": "fbfeaf25-3eaf-410e-b70c-c84e519bbe7c"
@@ -52,6 +56,35 @@
     },
     "targetPage": "browser",
     "name": "a2433fb0-08b3-4d97-b0f3-b87ab622bd0a"
+  }, {
+    "intent": "action + page",
+    "condition": "$intent.params.action = ouvre AND $intent.params.page = home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Start Page",
+    "name": "0f17c963-fe74-4b14-8e60-20988958972f"
+  }, {
+    "intent": "action + page",
+    "condition": "$session.params.action = ouvre AND $session.params.page = thread",
+    "triggerFulfillment": {
+      "webhook": "ai: nouvelle conversation",
+      "tag": "ai-new-thread"
+    },
+    "targetPage": "thread",
+    "name": "91308ae1-69d4-4e8a-aeb4-08f3454917a1"
+  }, {
+    "intent": "action",
+    "condition": "$session.params.action = getinfo",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Current page: $session.params.currentPage" ]
+        },
+        "languageCode": "fr"
+      } ]
+    },
+    "name": "d5fcb35f-14d4-4840-9336-05450d93e840"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -63,8 +96,7 @@
         "languageCode": "en"
       } ],
       "webhook": "ai: forward queryTextInput",
-      "tag": "ai-forward-queryTextInput",
-      "returnPartialResponses": true
+      "tag": "ai-forward-queryTextInput"
     },
     "name": "2054ea63-093e-4388-a479-49e60f19239e"
   }, {

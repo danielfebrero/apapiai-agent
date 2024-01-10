@@ -9,7 +9,7 @@
     "languageCode": "fr"
   }, {
     "value": "conversation",
-    "synonyms": [ "conversation" ],
+    "synonyms": [ "conversation", "thread" ],
     "languageCode": "fr"
   } ]
 }
