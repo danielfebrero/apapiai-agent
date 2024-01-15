@@ -1,0 +1,30 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Utilise",
+      "parameterId": "action",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "auto-trade",
+      "parameterId": "server-tool",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
+      "text": "Lance",
+      "parameterId": "action"
+    }, {
+      "text": " "
+    }, {
+      "text": "autotrade",
+      "parameterId": "server-tool"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  } ]
+}

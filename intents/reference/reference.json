@@ -1,6 +1,6 @@
 {
   "name": "06ca8c04-7be8-453a-97ec-54b839c87139",
-  "displayName": "referene",
+  "displayName": "reference",
   "parameters": [ {
     "id": "reference",
     "entityType": "@reference"

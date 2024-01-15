@@ -17,6 +17,15 @@
     } ]
   },
   "transitionRoutes": [ {
+    "intent": "action + server-tool + symbol",
+    "condition": "$session.params.action = ouvre AND $session.params.server-tool = auto-trade",
+    "triggerFulfillment": {
+      "webhook": "trading: generic intent with symbol",
+      "tag": "trading-generic-intent"
+    },
+    "targetPage": "autotrade",
+    "name": "02e57cd8-9949-4b24-b25b-1ae5678a9c20"
+  }, {
     "intent": "action + page",
     "condition": "$session.params.action = ferme",
     "triggerFulfillment": {
@@ -34,26 +43,25 @@
     "targetPage": "Start Page",
     "name": "ae6b2f90-0e85-451b-989c-25487440dd26"
   }, {
-    "intent": "action + reference",
-    "condition": "$intent.params.action = tweet",
-    "triggerFulfillment": {
-      "webhook": "twitter: tweet ton dernier message",
-      "tag": "tweet-last-message"
-    },
-    "name": "dcf84bd4-15b1-44e2-a548-06aeb8a66501"
-  }, {
     "intent": "action + server-tool + symbol",
     "triggerFulfillment": {
-      "webhook": "trading: generic intent",
+      "webhook": "trading: generic intent with symbol",
       "tag": "trading-generic-intent"
     },
     "name": "b68edc4c-6ab5-4162-8d2a-af5df9adafcd"
   }, {
-    "intent": "referene",
+    "intent": "reference",
     "triggerFulfillment": {
       "webhook": "ai: forward queryTextInput",
       "tag": "forward-query"
     },
     "name": "ccd52b13-9ef1-415c-a8c7-f01fb7057033"
+  }, {
+    "intent": "action + server-tool",
+    "triggerFulfillment": {
+      "webhook": "trading: generic intent without symbol",
+      "tag": "trading-generic-no-symbol"
+    },
+    "name": "f30cd05f-d31a-4ec3-ada5-2a2ada5845da"
   } ]
 }

@@ -23,5 +23,9 @@
     "value": "analyse technique",
     "synonyms": [ "analyse technique", "technical analysis" ],
     "languageCode": "fr"
+  }, {
+    "value": "auto-trade",
+    "synonyms": [ "auto trade", "auto-trade", "autotrade" ],
+    "languageCode": "fr"
   } ]
 }

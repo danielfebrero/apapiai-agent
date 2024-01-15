@@ -17,15 +17,8 @@
     } ]
   },
   "transitionRoutes": [ {
-    "intent": "action + quote",
-    "triggerFulfillment": {
-      "webhook": "twitter: tweet",
-      "tag": "twitter-tweet"
-    },
-    "name": "ed913b5e-2271-412d-a466-6575a3b5e8d2"
-  }, {
     "intent": "action",
-    "condition": "$intent.params.action = login",
+    "condition": "$session.params.action = login",
     "triggerFulfillment": {
       "webhook": "twitter: login",
       "tag": "twitter-login"
@@ -33,7 +26,7 @@
     "name": "5a9bb25c-1c39-4e2d-839a-8006fbcd36ee"
   }, {
     "intent": "action",
-    "condition": "$intent.params.action = logout",
+    "condition": "$session.params.action = logout",
     "triggerFulfillment": {
       "webhook": "twitter: logout",
       "tag": "twitter-logout"
@@ -41,7 +34,7 @@
     "name": "de229ddb-bc2b-4b7e-bee7-49f4445dedec"
   }, {
     "intent": "action + reference",
-    "condition": "$intent.params.action = récupère AND $intent.params.reference = profile",
+    "condition": "$session.params.action = récupère AND $session.params.reference = profile",
     "triggerFulfillment": {
       "webhook": "twitter: profile",
       "tag": "twitter-profile"
@@ -64,13 +57,5 @@
     },
     "targetPage": "Start Page",
     "name": "3604c533-7aea-48ed-821b-1a79043da351"
-  }, {
-    "intent": "action + reference",
-    "condition": "$intent.params.action = tweet",
-    "triggerFulfillment": {
-      "webhook": "twitter: tweet ton dernier message",
-      "tag": "tweet-last-message"
-    },
-    "name": "86748350-6a48-4231-a0d1-6c6d93b48451"
   } ]
 }

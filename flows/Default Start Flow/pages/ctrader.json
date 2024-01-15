@@ -1,36 +1,28 @@
 {
-  "name": "7027ee08-937f-4656-89ac-2fa46f5838ba",
-  "displayName": "terminal",
+  "name": "11219426-2a1e-40b1-b59b-967aac06deca",
+  "displayName": "ctrader",
   "form": {
   
   },
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "You are now in the terminal. Input commands with $." ]
+        "text": [ "You are now in cTrader app." ]
       },
       "languageCode": "fr"
     } ],
     "setParameterActions": [ {
       "parameter": "currentPage",
-      "value": "terminal"
+      "value": "cTrader"
     } ]
   },
   "transitionRoutes": [ {
-    "intent": "unix: execute command",
-    "triggerFulfillment": {
-      "webhook": "unix: send command",
-      "tag": "unix-send-command",
-      "returnPartialResponses": true
-    },
-    "name": "ae952045-cf49-468a-b71d-ff79ccf80519"
-  }, {
     "intent": "action + page",
     "condition": "$session.params.action = ferme",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Exited terminal." ]
+          "text": [ "You have exited cTrader app." ]
         },
         "languageCode": "fr"
       } ],
@@ -40,6 +32,14 @@
       } ]
     },
     "targetPage": "Start Page",
-    "name": "77caec5c-c311-494b-87a1-ffff4d22c5a2"
+    "name": "78254218-3fb9-40f4-9dac-ebc6e59a9ccf"
+  }, {
+    "intent": "action",
+    "condition": "$session.params.action = login",
+    "triggerFulfillment": {
+      "webhook": "ctrader: login",
+      "tag": "ctrader-login"
+    },
+    "name": "149421f8-5ac4-43d3-951c-5b6e61585141"
   } ]
 }

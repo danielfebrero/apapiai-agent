@@ -17,7 +17,7 @@
     "languageCode": "fr"
   }, {
     "value": "ouvre",
-    "synonyms": [ "go to", "open", "ouvre" ],
+    "synonyms": [ "go to", "lance", "open", "ouvre" ],
     "languageCode": "fr"
   }, {
     "value": "ferme",
@@ -34,6 +34,10 @@
   }, {
     "value": "getinfo",
     "synonyms": [ "getinfo" ],
+    "languageCode": "fr"
+  }, {
+    "value": "utilise",
+    "synonyms": [ "use", "utilise" ],
     "languageCode": "fr"
   } ]
 }

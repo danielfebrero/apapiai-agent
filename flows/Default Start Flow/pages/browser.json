@@ -40,13 +40,5 @@
     },
     "targetPage": "Start Page",
     "name": "e18167b9-f5a0-44e5-9be9-0fd7ed0df4f2"
-  }, {
-    "intent": "action + reference",
-    "condition": "$intent.params.action = tweet",
-    "triggerFulfillment": {
-      "webhook": "twitter: tweet ton dernier message",
-      "tag": "tweet-last-message"
-    },
-    "name": "0b1984ff-871a-4464-bcbb-372440b1a2f0"
   } ]
 }

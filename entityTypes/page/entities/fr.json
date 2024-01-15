@@ -23,5 +23,9 @@
     "value": "thread",
     "synonyms": [ "conversation", "thread" ],
     "languageCode": "fr"
+  }, {
+    "value": "ctrader",
+    "synonyms": [ "ctrader" ],
+    "languageCode": "fr"
   } ]
 }

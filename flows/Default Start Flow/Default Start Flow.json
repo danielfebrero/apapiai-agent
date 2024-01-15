@@ -23,6 +23,18 @@
     },
     "name": "fbfeaf25-3eaf-410e-b70c-c84e519bbe7c"
   }, {
+    "intent": "action",
+    "condition": "$session.params.action = getinfo",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Current page: $session.params.currentPage" ]
+        },
+        "languageCode": "fr"
+      } ]
+    },
+    "name": "d5fcb35f-14d4-4840-9336-05450d93e840"
+  }, {
     "intent": "action + page",
     "condition": "$session.params.action = \"ouvre\" AND $session.params.page = terminal",
     "triggerFulfillment": {
@@ -74,17 +86,28 @@
     "targetPage": "thread",
     "name": "91308ae1-69d4-4e8a-aeb4-08f3454917a1"
   }, {
-    "intent": "action",
-    "condition": "$session.params.action = getinfo",
+    "intent": "action + page",
+    "condition": "$session.params.action = ouvre AND $session.params.page = ctrader",
     "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Current page: $session.params.currentPage" ]
-        },
-        "languageCode": "fr"
-      } ]
+    
     },
-    "name": "d5fcb35f-14d4-4840-9336-05450d93e840"
+    "targetPage": "ctrader",
+    "name": "17353d6b-0f59-4091-ab87-d90580d1cb04"
+  }, {
+    "intent": "action + quote",
+    "triggerFulfillment": {
+      "webhook": "twitter: tweet",
+      "tag": "tweet-quote"
+    },
+    "name": "78940aa3-619e-4c9a-8bc0-6647edd5787a"
+  }, {
+    "intent": "action + reference",
+    "condition": "$session.params.action = tweet",
+    "triggerFulfillment": {
+      "webhook": "twitter: tweet ton dernier message",
+      "tag": "tweet-last-message"
+    },
+    "name": "690c950b-8a35-49ea-8b40-297d0b431334"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",

@@ -1,0 +1,13 @@
+{
+  "name": "89a6e7e5-0f00-4c52-b613-36768f0a0a79",
+  "displayName": "action + server-tool",
+  "parameters": [ {
+    "id": "action",
+    "entityType": "@action"
+  }, {
+    "id": "server-tool",
+    "entityType": "@server-tool"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 2
+}

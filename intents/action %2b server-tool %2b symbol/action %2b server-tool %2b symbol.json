@@ -12,5 +12,5 @@
     "entityType": "@symbol"
   } ],
   "priority": 500000,
-  "numTrainingPhrases": 4
+  "numTrainingPhrases": 5
 }

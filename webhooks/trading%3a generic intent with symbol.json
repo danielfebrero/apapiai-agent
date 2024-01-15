@@ -1,6 +1,6 @@
 {
   "name": "b346622e-704a-4c9d-90df-8caca610d4ef",
-  "displayName": "trading: generic intent",
+  "displayName": "trading: generic intent with symbol",
   "genericWebService": {
     "uri": "https://bard-407521.uc.r.appspot.com/trading/intent",
     "webhookType": "FLEXIBLE",

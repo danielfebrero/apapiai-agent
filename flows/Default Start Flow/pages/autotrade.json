@@ -1,0 +1,38 @@
+{
+  "name": "6f38603c-600d-4aed-8513-f34ad38fdfdc",
+  "displayName": "autotrade",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "setParameterActions": [ {
+      "parameter": "currentPage",
+      "value": "auto-trade"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "action",
+    "condition": "$session.params.action = ferme",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Exited auto-trade." ]
+        },
+        "languageCode": "fr"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "currentPage",
+        "value": "trading"
+      } ]
+    },
+    "targetPage": "trading",
+    "name": "d4818d9d-5fe3-4786-b656-6de6e5afa7e1"
+  }, {
+    "intent": "sys.any",
+    "triggerFulfillment": {
+      "webhook": "ai: add to thread",
+      "tag": "add-to-thread"
+    },
+    "name": "2cd7158e-98d9-4157-a75a-5105a009a9da"
+  } ]
+}

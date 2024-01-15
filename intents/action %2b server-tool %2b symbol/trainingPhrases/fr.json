@@ -1,6 +1,24 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "Utilise",
+      "parameterId": "action"
+    }, {
+      "text": " "
+    }, {
+      "text": "auto-trade",
+      "parameterId": "server-tool"
+    }, {
+      "text": " pour "
+    }, {
+      "text": "EURUSD",
+      "parameterId": "symbol",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "fr"
+  }, {
+    "parts": [ {
       "text": "Montre moi",
       "parameterId": "action",
       "auto": true
