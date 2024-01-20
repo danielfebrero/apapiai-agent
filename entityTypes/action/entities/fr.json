@@ -39,5 +39,13 @@
     "value": "utilise",
     "synonyms": [ "use", "utilise" ],
     "languageCode": "fr"
+  }, {
+    "value": "clear",
+    "synonyms": [ "clear" ],
+    "languageCode": "fr"
+  }, {
+    "value": "help",
+    "synonyms": [ "help" ],
+    "languageCode": "fr"
   } ]
 }

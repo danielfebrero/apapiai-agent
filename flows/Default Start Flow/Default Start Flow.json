@@ -108,6 +108,32 @@
       "tag": "tweet-last-message"
     },
     "name": "690c950b-8a35-49ea-8b40-297d0b431334"
+  }, {
+    "intent": "action + server-tool",
+    "condition": "$session.params.action = clear AND $session.params.server-tool = openai",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Cleared discussion." ]
+        },
+        "languageCode": "fr"
+      } ],
+      "webhook": "openai: clear",
+      "tag": "openai-clear"
+    },
+    "name": "0b077c33-7f9d-4e8f-8bf5-7ff02bb5c10a"
+  }, {
+    "intent": "action",
+    "condition": "$session.params.action = help",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Welcome to the Dialogflow CX Agent! Below you will find a guide to navigate through the various applications and tools integrated within the agent.\n\nAccessing Applications:\nTo open an application or page, use the 'ouvre' command followed by the name of the page or app you wish to access. Here are some of the applications you can open:\n\n1. Terminal: \"ouvre terminal\"\n   - A Unix-like terminal where you can execute commands.\n2. Browser: \"ouvre browser\"\n   - A web browser interface to perform actions like taking screenshots.\n3. Trading: \"ouvre trading\"\n   - Opens the trading application where you can manage trades and monitor the market.\n4. X (Twitter): \"ouvre X\"\n   - Interface for Twitter operations like tweeting, login, and logout.\n5. cTrader: \"ouvre ctrader\"\n   - Opens the cTrader application for trading activities.\n6. Auto-trade: \"ouvre auto-trade\"\n   - Specifically access the auto-trading tool for automated trading operations.\n\nExiting Applications:\nTo exit an application, use the 'ferme' command followed by the name of the page or app. For example:\n- \"ferme terminal\" to exit the Terminal.\n- \"ferme browser\" to close the Browser app.\n- \"ferme trading\" to exit the Trading application.\n\nOther Actions:\n- Login/Logout: \"login\" or \"logout\" to sign into or out of the current application.\n- Tweeting: \"tweet 'your message'\" to post a tweet.\n- Performing Trading Actions: Combine the word \"montre moi\" with tools like \"auto-trade,\" \"analyse technique,\" or a specific symbol to perform trading operations, for example, \"montre moi analyse technique EURUSD.\"\n\nUnmatched Intents:\nIf you say something that the agent does not recognize or is outside of the predefined flows, it will be sent to GPT-4 for processing. You can then expect a generative response that aids in continuing the conversation or providing the information you're seeking.\n\nRemember, this Dialogflow CX Agent is designed to assist you as seamlessly as possible. If you encounter any issues or have further questions, do not hesitate to reach out for support.\n\nThank you for using our Dialogflow CX Agent!" ]
+        },
+        "languageCode": "fr"
+      } ]
+    },
+    "name": "91943a85-6573-402e-81bd-f3293f048be2"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",

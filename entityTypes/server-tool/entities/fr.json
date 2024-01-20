@@ -27,5 +27,9 @@
     "value": "auto-trade",
     "synonyms": [ "auto trade", "auto-trade", "autotrade" ],
     "languageCode": "fr"
+  }, {
+    "value": "openai",
+    "synonyms": [ "openai" ],
+    "languageCode": "fr"
   } ]
 }

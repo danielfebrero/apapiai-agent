@@ -1,0 +1,13 @@
+{
+  "name": "97fe6b13-56a0-4ff2-b148-7304a489f380",
+  "displayName": "openai: clear",
+  "genericWebService": {
+    "uri": "https://bard-407521.uc.r.appspot.com/openai/clear",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"credential\": \"$session.params.credential\",\n  \"appId\": \"$session.params.appId\",\n  \"socketUuid\": \"$session.params.socketUuid\"\n}"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}
