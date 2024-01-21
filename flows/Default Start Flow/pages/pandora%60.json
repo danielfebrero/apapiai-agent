@@ -1,0 +1,47 @@
+{
+  "name": "998e4188-b503-4c4b-94c2-72c42f573351",
+  "displayName": "pandora`",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Welcome to Pandora." ]
+      },
+      "languageCode": "fr"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "currentPage",
+      "value": "pandora"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "action + page",
+    "condition": "$session.params.action = ferme",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "You exited Pandora." ]
+        },
+        "languageCode": "fr"
+      } ]
+    },
+    "targetPage": "Start Page",
+    "name": "06811a46-6d4b-4a59-aac7-7ecbc477aaa5"
+  }, {
+    "intent": "unix: execute command",
+    "triggerFulfillment": {
+      "webhook": "pandora: command",
+      "tag": "pandora-command"
+    },
+    "name": "6fc121ce-af23-42ca-9f4c-0294f42a1beb"
+  }, {
+    "intent": "sys.any",
+    "triggerFulfillment": {
+      "webhook": "pandora: message",
+      "tag": "pandora-message"
+    },
+    "name": "4d686170-bf5c-4ad7-8778-374e4be1cc33"
+  } ]
+}

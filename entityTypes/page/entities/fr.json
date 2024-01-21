@@ -27,5 +27,9 @@
     "value": "ctrader",
     "synonyms": [ "ctrader" ],
     "languageCode": "fr"
+  }, {
+    "value": "pandora",
+    "synonyms": [ "pandora" ],
+    "languageCode": "fr"
   } ]
 }

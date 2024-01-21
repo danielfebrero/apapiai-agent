@@ -134,6 +134,14 @@
       } ]
     },
     "name": "91943a85-6573-402e-81bd-f3293f048be2"
+  }, {
+    "intent": "action + page",
+    "condition": "$session.params.action = ouvre AND $session.params.page = pandora",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "pandora`",
+    "name": "ba109e55-bc32-430f-9ef7-103747926309"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",

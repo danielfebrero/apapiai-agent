@@ -1,0 +1,13 @@
+{
+  "name": "43be4596-a5e8-4acd-a94a-7f9e5bb5f938",
+  "displayName": "pandora: message",
+  "genericWebService": {
+    "uri": "https://bard-407521.uc.r.appspot.com/pandora/message",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"credential\": \"$session.params.credential\",\n  \"appId\": \"$session.params.appId\",\n  \"socketUuid\": \"$session.params.socketUuid\",\n  \"message\": \"$session.params.queryTextInput\"\n}"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}
